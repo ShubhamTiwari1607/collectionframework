@@ -16,9 +16,11 @@ public class a {
     public static void main(String[] args){
         int row , col;
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter the row and column number");
         row = sc.nextInt();
         col = sc.nextInt();
+        sc.close();
         int ans = nCr(row , col);
         System.out.println(ans);
 
