@@ -22,6 +22,7 @@ public class b {
         System.out.println("enter the row number");
         Scanner sc = new Scanner(System.in) ;
         row = sc.nextInt();
+        sc.close();
         helper(row);
         
     }
